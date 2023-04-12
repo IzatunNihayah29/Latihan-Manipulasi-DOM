@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Manipulasi DOM</title>
+</head>
+<body>
+    <h1>
+        <p id="demo">Gett a FizzBuzz Result!</p>
+    </h1>
+    <label for="type-a-number">Type a number:</label>
+    <input id="number" type="number" value="89">
+    <button onclick="changeButton(this)">Click here!</button>
+
+    <script>
+        const number =
+        document.getElementById("number").value;
+        console.log(number);
+        function changeButton(obj){
+            obj.innerHTML="Click here!";
+            obj.style.color="red":
+        }
+    </script>
+</body>
+</html>
